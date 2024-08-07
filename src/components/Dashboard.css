@@ -1,0 +1,75 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1f1f1f; /* Dark background */
+}
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 100px;
+  background-color: #292929; /* Sidebar background */
+}
+
+.main-content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  
+  overflow-y: auto;
+}
+
+.chart-menu-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chart-section, .menu-section {
+  flex: 1;
+  background-color: #2a2a2a; /* Background color for both sections */
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0; /* Remove margin on the last item */
+}
+
+.recent-feedback-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-orders-section, .customer-feedback-section {
+  flex: 1;
+  background-color: #2a2a2a; /* Background color for both sections */
+  margin-right: 10px;
+}
+
+.customer-feedback-section {
+  margin-right: 0; /* Remove margin on the last item */
+}
+
+
+@media (max-width: 768px) {
+  .chart-menu-container {
+    flex-direction: column;
+  }
+}

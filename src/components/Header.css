@@ -1,0 +1,55 @@
+.header {
+  background-color: #2b2b2b;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.search {
+  flex-grow: 1;
+  padding-left : 40px;
+}
+
+.search-wrapper {
+  border-radius: 2px;
+  border: 3px solid black;
+  position: relative;
+  width: 300px;
+}
+
+.search-bar {
+  width: 300px;
+  height: 30px;
+  padding-left: 40px; /* Space for the icon */
+  padding-right: 10px;
+  font-size: 15px;
+  background-color: #2b2b2b;
+  color: antiquewhite;
+  border: none;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: antiquewhite;
+  position: absolute;
+  left: 8px; /* Position the icon inside the search bar */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.side-menu {
+  display: flex;
+  align-items: center;
+}
+
+.side-menu div {
+  color: white;
+}
